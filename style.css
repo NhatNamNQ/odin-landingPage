@@ -175,3 +175,11 @@ h1 {
 .buy {
     outline: 2px solid white;
 }
+
+/* footer */
+.footer {
+    font-size: 16px;
+    text-align: center;
+    padding: 32px;
+    color: #e5e7eb;
+}
