@@ -139,3 +139,19 @@ h1 {
 }
 
 /* quote */
+.quote {
+    padding: 32px;
+}
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.character {
+    font-size: 18px;
+    color: #1f2937;
+    text-align: end;
+    padding-right: 190px;
+}
