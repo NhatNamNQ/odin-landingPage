@@ -28,7 +28,6 @@ body {
 }
 
 a {
-    text-decoration: none;
     color: white;
 }
 
@@ -43,7 +42,9 @@ ul {
 }
 
 img {
-    width: 300px;
+    width: 400px;
+    height: 240px;;
+    border-radius: 10px;
 }
 
 h1 {
@@ -57,9 +58,18 @@ h2 {
     color: #f9faf8;
 }
 
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    padding: 6px;
 }
 /* design landing */
 body {
@@ -67,15 +77,42 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    margin: 0;
+}
+
+/* header */
 .header {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 0px 100px 0px 100px;
+
 }
 .header-container {
     display: flex;
+    align-self: center;
+    gap: 640px;
 }
 
 .header-introduction {
+    display: flex; 
+    gap: 50px;
+    width: 1000px;
+    align-self: center;
+}
+
+.text {
     display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+/* information */
+.information p {
+    font-size: 36px;
+    color: #1d2937;
+    font-weight: 900;
+    text-align: center;
 }
