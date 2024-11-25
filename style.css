@@ -1,0 +1,81 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1f2937;
+    flex: 1;
+}
+
+.information {
+    flex: 1;
+}
+.quote {
+    background-color: #e5e7eb;
+    flex: 1;
+}
+
+.action {
+    background-color: #3882f6;
+    flex: 1;
+}
+
+.footer {
+    background-color: #1f2937;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    font-size: 48px; 
+    font-weight: 900; 
+    color: #f9faf8;
+}
+
+h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+/* design landing */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-container {
+    display: flex;
+}
+
+.header-introduction {
+    display: flex;
+}
